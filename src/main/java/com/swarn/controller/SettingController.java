@@ -17,7 +17,7 @@ public class SettingController {
 	{
 		ModelAndView mav=new ModelAndView();
 		
-		
+		System.out.println("********* HELO ****************** ");
 		mav.setViewName("home");
 		return mav;
 	}
